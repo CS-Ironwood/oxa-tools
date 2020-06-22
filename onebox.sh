@@ -7,7 +7,7 @@
 set -ae
 
 # static strings
-readonly MSFT="microsoft"
+readonly MSFT="cloudswyft"
 readonly EDX="edx"
 readonly USE_MSFT="useMsftRepo"
 readonly TAGS="tags/"
@@ -37,17 +37,17 @@ MONGO_PASSWORD=
 readonly MYSQL_USER=oxamysql
 MYSQL_PASSWORD=
 
-readonly EDXAPP_SU_USERNAME=edx_admin
-EDXAPP_SU_PASSWORD=
+readonly EDXAPP_SU_USERNAME=lexoxaadmin
+EDXAPP_SU_PASSWORD=CloudSwyft2020!
 
-readonly BASE_URL=$HOSTNAME
-readonly LMS_URL=$BASE_URL # vanity
-readonly CMS_URL=$BASE_URL
-readonly PREVIEW_URL=$BASE_URL
-readonly PLATFORM_NAME="$MSFT Learning on $HOSTNAME"
+readonly BASE_URL=cloudswyft.com
+readonly LMS_URL=lmsdarkficus.$BASE_URL # vanity
+readonly CMS_URL=cmsdarkficus.$BASE_URL
+readonly PREVIEW_URL=previewdarkficus$BASE_URL
+readonly PLATFORM_NAME="Ficus Dark One"
 readonly EDXAPP_IMPORT_KITCHENSINK_COURSE=true
 readonly NGINX_ENABLE_SSL=false
-readonly EDXAPP_SU_EMAIL="${EDXAPP_SU_USERNAME}@${MSFT}.com"
+readonly EDXAPP_SU_EMAIL="j-patrick@cloudsyft.com"
 readonly PLATFORM_EMAIL="$EDXAPP_SU_EMAIL"
 readonly EDXAPP_COMPREHENSIVE_THEME_DIRS='[ "/edx/app/edxapp/themes" ]'
 readonly EDXAPP_DEFAULT_SITE_THEME=comprehensive
